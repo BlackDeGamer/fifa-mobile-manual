@@ -6,12 +6,13 @@ root: intro
 options:
   numbered: true
 chapters:
+- file: chapters/1_expected_conduct
 - file: markdown
   title: Welcome message
-  sections:
-  - file: notebooks
-    title: notebook
-  - file: markdown-notebooks
-    title: MK_nt
+# sections:
+- file: notebooks
+  title: notebook
+- file: markdown-notebooks
+  title: MK_nt
 - file: mymarkdownfile
   title: Custom
