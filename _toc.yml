@@ -8,6 +8,7 @@ options:
 chapters:
 - file: chapters/1_expected_conduct
 - file: chapters/2_installation
+- file: chapters/3_account_creation
 - file: markdown
   title: Welcome message
 # sections:

@@ -1,5 +1,6 @@
 
 # Installation
+
 ## Terms and conditions
 
 By downloading and using the FIFA Mobile game you agree to the terms written in the Electronic Arts User Agreement. You can find the agreement here.
