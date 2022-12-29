@@ -25,12 +25,14 @@ The following are all the aspects that will be affected by the region segmentati
 
 ## Creating an account
 
-The game requires you to input your age and a username to create your account. Be aware that:
+The game requires you to input your age and a username to create your account. 
 
-* Once you have chosen the username (maximum 16 characters), you cannot change it later. FIFA Mobile currently has no functionality for a user to change their username
+```{note}
+* Once you have chosen the username (maximum 16 characters), you cannot change it later. FIFA Mobile currently has no functionality for a user to change their username.
+
 * Once you have selected your age, you cannot change it, later. Accounts of certain ages have limited access to some game features.
 Experience levels
-
+```
 ## Experience levels
 
 Your account's experience level is 0 when you begin a FIFA Mobile season. You can increase your account level from 0 by accumulating experience points. Completing certain matches in the game awards experience points.

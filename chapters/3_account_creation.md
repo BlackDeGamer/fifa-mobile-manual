@@ -25,12 +25,13 @@ The following are all the aspects that will be affected by the region segmentati
 
 ## Creating an account
 
-The game requires you to input your age and a username to create your account. Be aware that:
+The game requires you to input your age and a username to create your account. 
 
-* Once you have chosen the username (maximum 16 characters), you cannot change it later. FIFA Mobile currently has no functionality for a user to change their username
+```{note}
+* Once you have chosen the username (maximum 16 characters), you cannot change it later. FIFA Mobile currently has no functionality for a user to change their username.
+
 * Once you have selected your age, you cannot change it, later. Accounts of certain ages have limited access to some game features.
-Experience levels
-
+```
 ## Experience levels
 
 Your account's experience level is 0 when you begin a FIFA Mobile season. You can increase your account level from 0 by accumulating experience points. Completing certain matches in the game awards experience points.
@@ -40,7 +41,7 @@ Some game features are locked in lower experience levels. Reaching certain accou
 * Reaching account level 2 will see you unlock 9 formations. Thereafter, 1 formation will be unlocked for every 2 account levels achieved until all 29 formations have been unlocked
 * Reaching account level 10 will unlock the “League” feature. You can create or join a league
 * Reaching account level 15 will enable a purchase of extra line-ups from the game’s store
-Saving gaming progress
+
 
 ## Save account progress
 To save your account progress, you need to link FIFA Mobile to one of the following accounts:
@@ -72,7 +73,6 @@ Playing as a guest has a few drawbacks:
 * You can only play your game on the device you downloaded and have an account on. Your game will not move over to different devices
 * All game progress will be lost if you factory-reset your device, install a major OS update, or delete the app
 * Lost game progress is permanent. Electronic Arts cannot recover an unsaved game-progress
-Account resources
 
 ##  Account resources
 
