@@ -14,7 +14,7 @@ When creating an account, your account will ultimately be assigned to one of the
 * Middle East & Africa
 * North America
 
-The assignment is based on your device’s location (IP address). The full list of countries assigned to each region can be found here. Once your account has been assigned to a region, your region assignment cannot be changed.
+The assignment is based on your device’s location (IP address). The full list of countries assigned to each region can be found here. 
 
 The following are all the aspects that will be affected by the region segmentation:
 
@@ -23,6 +23,9 @@ The following are all the aspects that will be affected by the region segmentati
 * Leagues: You can only join or create leagues for your region
 * Friend Lists: you can only send and/or receive friend requests to/ from gamers in your region
 
+```{note}
+Once your account has been assigned to a region, your region assignment cannot be changed.
+```
 ## Creating an account
 
 The game requires you to input your age and a username to create your account. 
