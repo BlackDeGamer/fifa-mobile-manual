@@ -3,9 +3,15 @@
 
 format: jb-book
 root: intro
+options:
+  numbered: true
 chapters:
 - file: markdown
-    sections:
-    - file: notebooks
-    - file: markdown-notebooks
+  title: Welcome message
+  sections:
+  - file: notebooks
+    title: notebook
+  - file: markdown-notebooks
+    title: MK_nt
 - file: mymarkdownfile
+  title: Custom

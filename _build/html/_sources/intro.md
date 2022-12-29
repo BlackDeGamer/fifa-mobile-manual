@@ -1,11 +1,8 @@
-# Welcome to your Jupyter Book
+# Welcome to the FIFA Mobile manual
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+This page gives you a feel for how book content is structured.
 
-Check out the content pages bundled with this sample book to see more.
+**Disclaimer**: This is not an official publication by FIFA Mobile’s developer: Electronic Arts. We are putting this information together so that any FIFA Mobile gamer can find all the basic information about the game in one place
 
 ```{tableofcontents}
 ```
