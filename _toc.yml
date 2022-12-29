@@ -7,6 +7,7 @@ options:
   numbered: true
 chapters:
 - file: chapters/1_expected_conduct
+- file: chapters/2_installation
 - file: markdown
   title: Welcome message
 # sections:

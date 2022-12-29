@@ -55,4 +55,4 @@ If you break the rules, EA might:
 * Suspend your account or permanently ban it in serious cases.
 * Restrict your access in other ways.
 
-The complete rules can be found in [section 6 of the Electronic Arts User Agreement.] (http://tos.ea.com/legalapp/WEBTERMS/US/en/PC#section6 )
+The complete rules can be found in [section 6 of the Electronic Arts User Agreement.](http://tos.ea.com/legalapp/WEBTERMS/US/en/PC#section6 )
