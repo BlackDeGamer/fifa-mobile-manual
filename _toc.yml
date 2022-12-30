@@ -15,6 +15,9 @@ chapters:
 - file: chapters/7_player_actions
 - file: chapters/8_team_tactics
 - file: chapters/9_game_modes
+- file: chapters/10_field_positions
+- file: chapters/11_field_formations
+- file: chapters/12_chemistry
 - file: markdown
   title: Welcome message
 # sections:
