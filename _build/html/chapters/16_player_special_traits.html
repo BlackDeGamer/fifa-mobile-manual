@@ -1,0 +1,907 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>16. Special traits &#8212; FIFA Mobile Manual</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="17. Skill moves" href="17_skill_moves.html" />
+    <link rel="prev" title="15. Player attributes" href="15_player_attributes.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">FIFA Mobile Manual</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to the FIFA Mobile manual
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="1_expected_conduct.html">
+   1. Conduct
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2_installation.html">
+   2. Installation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="3_account_creation.html">
+   3. Account creation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="4_your_profile.html">
+   4. Account-profile
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="5_account_settings.html">
+   5. Settings
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="6_game_filters.html">
+   6. Filters
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="7_player_actions.html">
+   7. Basic player actions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="8_team_tactics.html">
+   8. Team tactics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="9_game_modes.html">
+   9. Game modes
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="10_field_positions.html">
+   10. Field positions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="11_field_formations.html">
+   11. Field formations
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="12_chemistry.html">
+   12. Chemistry
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="13_player_item.html">
+   13. Player item
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="14_player_inventory.html">
+   14. Players
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="15_player_attributes.html">
+   15. Player attributes
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   16. Special traits
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="17_skill_moves.html">
+   17. Skill moves
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="18_skill_boost.html">
+   18. Skill boosts
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="19_player_improvement.html">
+   19. Player training, ranking and boosting
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../markdown.html">
+   20. Welcome message
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../notebooks.html">
+   21. Content with notebooks
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../markdown-notebooks.html">
+   22. Notebooks with MyST Markdown
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../mymarkdownfile.html">
+   23. Here’s my sample title
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fchapters/16_player_special_traits.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/chapters/16_player_special_traits.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#argues-with-officials">
+   16.1. Argues with officials
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#avoids-weaker-foot">
+   16.2. Avoids weaker foot
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#dives-into-tackles">
+   16.3. Dives into tackles
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#early-crosser">
+   16.4. Early crosser
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#finesse-shot">
+   16.5. Finesse shot
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#flair">
+   16.6. Flair
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#giant-throw-in">
+   16.7. Giant throw-in
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#injury-prone">
+   16.8. Injury prone
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#leadership">
+   16.9. Leadership
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#long-passer">
+   16.10. Long passer
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#long-shot-taker">
+   16.11. Long shot taker
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#long-throw-in">
+   16.12. Long throw-in
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#long-thrower-gk">
+   16.13. Long thrower (GK)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#one-club-player">
+   16.14. One club player
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#one-on-ones-gk">
+   16.15. One on ones (GK)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#outside-foot-shot">
+   16.16. Outside foot shot
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#playmaker">
+   16.17. Playmaker
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#power-header">
+   16.18. Power Header
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#powerful-driven-free-kick">
+   16.19. Powerful driven free kick
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#puncher-gk">
+   16.20. Puncher (GK)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#pushes-up-for-corners">
+   16.21. Pushes up for corners
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#selfish">
+   16.22. Selfish
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#rushes-out-of-goal">
+   16.23. Rushes out of goal
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#solid-player">
+   16.24. Solid player
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#speed-dribbler">
+   16.25. Speed Dribbler
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id1">
+   16.26. Speed Dribbler
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#team-player">
+   16.27. Team player
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tries-to-beat-offside-trap">
+   16.28. Tries To Beat Offside Trap
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Special traits</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#argues-with-officials">
+   16.1. Argues with officials
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#avoids-weaker-foot">
+   16.2. Avoids weaker foot
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#dives-into-tackles">
+   16.3. Dives into tackles
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#early-crosser">
+   16.4. Early crosser
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#finesse-shot">
+   16.5. Finesse shot
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#flair">
+   16.6. Flair
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#giant-throw-in">
+   16.7. Giant throw-in
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#injury-prone">
+   16.8. Injury prone
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#leadership">
+   16.9. Leadership
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#long-passer">
+   16.10. Long passer
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#long-shot-taker">
+   16.11. Long shot taker
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#long-throw-in">
+   16.12. Long throw-in
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#long-thrower-gk">
+   16.13. Long thrower (GK)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#one-club-player">
+   16.14. One club player
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#one-on-ones-gk">
+   16.15. One on ones (GK)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#outside-foot-shot">
+   16.16. Outside foot shot
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#playmaker">
+   16.17. Playmaker
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#power-header">
+   16.18. Power Header
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#powerful-driven-free-kick">
+   16.19. Powerful driven free kick
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#puncher-gk">
+   16.20. Puncher (GK)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#pushes-up-for-corners">
+   16.21. Pushes up for corners
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#selfish">
+   16.22. Selfish
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#rushes-out-of-goal">
+   16.23. Rushes out of goal
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#solid-player">
+   16.24. Solid player
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#speed-dribbler">
+   16.25. Speed Dribbler
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id1">
+   16.26. Speed Dribbler
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#team-player">
+   16.27. Team player
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tries-to-beat-offside-trap">
+   16.28. Tries To Beat Offside Trap
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="special-traits">
+<h1><span class="section-number">16. </span>Special traits<a class="headerlink" href="#special-traits" title="Permalink to this headline">#</a></h1>
+<p>Special traits are characteristics that are used to give players distinct behaviours in-game. Not all traits function in the same way, but all traits have at least one effect and fall into at least one of the categories below:</p>
+<ul class="simple">
+<li><p><strong>Standard traits</strong>: impact the way that a player plays, both when controlled by the gamer and when controlled by the AI</p></li>
+<li><p><strong>AI traits</strong>: impact the way that a player plays but only when they are being controlled by the AI</p></li>
+</ul>
+<section id="argues-with-officials">
+<h2><span class="section-number">16.1. </span>Argues with officials<a class="headerlink" href="#argues-with-officials" title="Permalink to this headline">#</a></h2>
+<p><strong>AI</strong> - a player with this trait will typically argue with officials, potentially exacerbating foul situations.</p>
+</section>
+<section id="avoids-weaker-foot">
+<h2><span class="section-number">16.2. </span>Avoids weaker foot<a class="headerlink" href="#avoids-weaker-foot" title="Permalink to this headline">#</a></h2>
+<p><strong>Standard</strong> – a player with this trait will more likely use his strongest foot to make a pass and to take a shot.</p>
+</section>
+<section id="dives-into-tackles">
+<h2><span class="section-number">16.3. </span>Dives into tackles<a class="headerlink" href="#dives-into-tackles" title="Permalink to this headline">#</a></h2>
+<p><strong>AI</strong> - a player with this trait will be more likely to use a sliding tackle instead of a standing tackle.</p>
+</section>
+<section id="early-crosser">
+<h2><span class="section-number">16.4. </span>Early crosser<a class="headerlink" href="#early-crosser" title="Permalink to this headline">#</a></h2>
+<p><strong>AI</strong> - a player with this trait will be more likely to attempt an early cross.</p>
+</section>
+<section id="finesse-shot">
+<h2><span class="section-number">16.5. </span>Finesse shot<a class="headerlink" href="#finesse-shot" title="Permalink to this headline">#</a></h2>
+<p><strong>Standard</strong> – a player with the Finesse Shot trait will get the full amount of curl when taking a finesse shot when the ball is on the ground. This can change how the ball will get to the target, but it does not change the target itself.</p>
+</section>
+<section id="flair">
+<h2><span class="section-number">16.6. </span>Flair<a class="headerlink" href="#flair" title="Permalink to this headline">#</a></h2>
+<p><strong>Standard</strong> – a player with this trait will be less likely to make errors when attempting flair moves. They will use a higher lob for their short lob passes if there are players in the way.</p>
+<p><strong>AI</strong> – a player with this trait is more likely to use flair passes or flair shots. They will also be more likely to stutter during a penalty kick run-up, and more likely to execute a chip shot penalty.</p>
+</section>
+<section id="giant-throw-in">
+<h2><span class="section-number">16.7. </span>Giant throw-in<a class="headerlink" href="#giant-throw-in" title="Permalink to this headline">#</a></h2>
+<p><strong>Standard</strong> - when performing a throw-in, a player with the giant throw-in trait will have a longer maximum throw-in distance than a player without this trait or a player with the long throw-in trait. If the opportunity for a quick throw-in has passed, Players with this trait will more likely be considered as the optimal choice for taking a throw-in where executing a long throw could boost a chance for a scoring opportunity.</p>
+</section>
+<section id="injury-prone">
+<h2><span class="section-number">16.8. </span>Injury prone<a class="headerlink" href="#injury-prone" title="Permalink to this headline">#</a></h2>
+<p><strong>Standard</strong> – A player with this trait has an increased chance of getting injured when a collision occurs.</p>
+</section>
+<section id="leadership">
+<h2><span class="section-number">16.9. </span>Leadership<a class="headerlink" href="#leadership" title="Permalink to this headline">#</a></h2>
+<p><strong>Standard</strong> – along with ‘one club player’ and ‘team player’ traits, this trait is used as part of the decision-making process in choosing a captain for a team if the designated captain is not in the line-up or is removed mid-game via substitution or red card.</p>
+</section>
+<section id="long-passer">
+<h2><span class="section-number">16.10. </span>Long passer<a class="headerlink" href="#long-passer" title="Permalink to this headline">#</a></h2>
+<p><strong>AI</strong> – a player with this trait is more likely to attempt long passes.</p>
+</section>
+<section id="long-shot-taker">
+<h2><span class="section-number">16.11. </span>Long shot taker<a class="headerlink" href="#long-shot-taker" title="Permalink to this headline">#</a></h2>
+<p><strong>AI</strong> – a player with this trait will be more likely to try and take long shots when running with the ball, and they’re more likely to try long volley shots.</p>
+</section>
+<section id="long-throw-in">
+<h2><span class="section-number">16.12. </span>Long throw-in<a class="headerlink" href="#long-throw-in" title="Permalink to this headline">#</a></h2>
+<p><strong>Standard</strong> – when performing a throw-in, a player with the long throw-in trait will have a longer maximum throw distance than a player without the trait. If the opportunity for a quick throw-in has passed, players with this trait will usually be considered the optimal selection for taking a throw-in, which can boost the chance for a scoring opportunity.</p>
+</section>
+<section id="long-thrower-gk">
+<h2><span class="section-number">16.13. </span>Long thrower (GK)<a class="headerlink" href="#long-thrower-gk" title="Permalink to this headline">#</a></h2>
+<p><strong>Standard</strong> – a goalkeeper with this trait will have the ability to target players further away with thrown passes.</p>
+</section>
+<section id="one-club-player">
+<h2><span class="section-number">16.14. </span>One club player<a class="headerlink" href="#one-club-player" title="Permalink to this headline">#</a></h2>
+<p><strong>Standard</strong> – along with ‘team player’ and ‘leadership’ traits, this trait is used as part of the decision-making process for choosing a captain if a team’s designated captain is not in the line-up or is removed mid-game via substitution or red card.</p>
+</section>
+<section id="one-on-ones-gk">
+<h2><span class="section-number">16.15. </span>One on ones (GK)<a class="headerlink" href="#one-on-ones-gk" title="Permalink to this headline">#</a></h2>
+<p><strong>AI</strong> - a player with this trait will have an advantage in 1-on-1 situations.</p>
+</section>
+<section id="outside-foot-shot">
+<h2><span class="section-number">16.16. </span>Outside foot shot<a class="headerlink" href="#outside-foot-shot" title="Permalink to this headline">#</a></h2>
+<p><strong>Standard</strong> - players with this trait can perform outside foot shots.</p>
+</section>
+<section id="playmaker">
+<h2><span class="section-number">16.17. </span>Playmaker<a class="headerlink" href="#playmaker" title="Permalink to this headline">#</a></h2>
+<p><strong>AI</strong> - a player with this trait will be given the ball by their teammates more often, allowing them to dictate more of the offence They will also make faster passing decisions.</p>
+</section>
+<section id="power-header">
+<h2><span class="section-number">16.18. </span>Power Header<a class="headerlink" href="#power-header" title="Permalink to this headline">#</a></h2>
+<p><strong>Standard</strong> – a player with the Power Header trait will have more powerful headers. They are more likely to be selected to fill a target position in the opposing penalty area during an attacking corner kick. They are less likely to be selected as the support player when the kick taker requests support for a short corner.</p>
+</section>
+<section id="powerful-driven-free-kick">
+<h2><span class="section-number">16.19. </span>Powerful driven free kick<a class="headerlink" href="#powerful-driven-free-kick" title="Permalink to this headline">#</a></h2>
+<p><strong>Standard</strong> - a player with this trait will start their free-kick run-up from further back to produce a more powerful free-kick.</p>
+<p><strong>AI</strong> – a player with this trait will be more likely to choose a driven free-kick over a finesse free-kick.</p>
+</section>
+<section id="puncher-gk">
+<h2><span class="section-number">16.20. </span>Puncher (GK)<a class="headerlink" href="#puncher-gk" title="Permalink to this headline">#</a></h2>
+<p><strong>AI</strong> – a player with this trait will be more likely to punch the ball away.</p>
+</section>
+<section id="pushes-up-for-corners">
+<h2><span class="section-number">16.21. </span>Pushes up for corners<a class="headerlink" href="#pushes-up-for-corners" title="Permalink to this headline">#</a></h2>
+<p><strong>AI</strong> – a player with this trait will be more likely to push forward in an attack for a corner near the end of a game if a goal is desperately needed.</p>
+</section>
+<section id="selfish">
+<h2><span class="section-number">16.22. </span>Selfish<a class="headerlink" href="#selfish" title="Permalink to this headline">#</a></h2>
+<p><strong>AI</strong> – a player with this trait will typically hold onto the ball even when teammates are in a better position.</p>
+</section>
+<section id="rushes-out-of-goal">
+<h2><span class="section-number">16.23. </span>Rushes out of goal<a class="headerlink" href="#rushes-out-of-goal" title="Permalink to this headline">#</a></h2>
+<p><strong>Standard</strong> - a goalkeeper with this trait will be more aggressive when coming out of the box to gather over the top or long through balls.</p>
+</section>
+<section id="solid-player">
+<h2><span class="section-number">16.24. </span>Solid player<a class="headerlink" href="#solid-player" title="Permalink to this headline">#</a></h2>
+<p><strong>Standard</strong> - A player with this trait has a reduced chance of getting injured when a collision occurs.</p>
+</section>
+<section id="speed-dribbler">
+<h2><span class="section-number">16.25. </span>Speed Dribbler<a class="headerlink" href="#speed-dribbler" title="Permalink to this headline">#</a></h2>
+<p><strong>AI</strong> – a player with this trait will be more likely to go on a long run or to attempt a zigzag dribble.</p>
+</section>
+<section id="id1">
+<h2><span class="section-number">16.26. </span>Speed Dribbler<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h2>
+<p><strong>AI</strong> – a player with this trait will be more likely to go on a long run or to attempt a zigzag dribble.</p>
+</section>
+<section id="team-player">
+<h2><span class="section-number">16.27. </span>Team player<a class="headerlink" href="#team-player" title="Permalink to this headline">#</a></h2>
+<p><strong>Standard</strong> – along with ‘one club player’ and ‘leadership’ traits, this trait is used as part of the decision-making process for choosing a captain if a team’s designated captain is not in the line-up or is removed mid-game via substitution or red card.</p>
+</section>
+<section id="tries-to-beat-offside-trap">
+<h2><span class="section-number">16.28. </span>Tries To Beat Offside Trap<a class="headerlink" href="#tries-to-beat-offside-trap" title="Permalink to this headline">#</a></h2>
+<p><strong>AI</strong> – a player with this trait will frequently attempt to beat the defensive line when a ball is played through to him.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./chapters"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="15_player_attributes.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title"><span class="section-number">15. </span>Player attributes</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="17_skill_moves.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">17. </span>Skill moves</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By BlackDeGamer<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
