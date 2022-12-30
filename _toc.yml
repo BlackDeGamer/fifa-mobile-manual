@@ -12,6 +12,7 @@ chapters:
 - file: chapters/4_your_profile
 - file: chapters/5_account_settings
 - file: chapters/6_game_filters
+- file: chapters/7_player_actions
 - file: markdown
   title: Welcome message
 # sections:

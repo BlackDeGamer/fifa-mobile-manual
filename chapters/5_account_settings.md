@@ -101,3 +101,6 @@ Here you will see a list of names of teams and people involved in the production
 ## Account deletion
 
 This setting will allow you to begin the process of deleting your game account and its progress.
+```{note}
+Once the account has been deleted it cannot be recovered
+```
