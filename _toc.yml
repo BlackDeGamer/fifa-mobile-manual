@@ -14,6 +14,7 @@ chapters:
 - file: chapters/6_game_filters
 - file: chapters/7_player_actions
 - file: chapters/8_team_tactics
+- file: chapters/9_game_modes
 - file: markdown
   title: Welcome message
 # sections:
