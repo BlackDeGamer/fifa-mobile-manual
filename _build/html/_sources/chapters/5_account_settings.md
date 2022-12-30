@@ -43,7 +43,7 @@ Change attack direction at halftime: When this option is turned off, during the 
 
 ## Graphics
 
-These settings help you manage their visual in-game experience. Depending on your device’s specifications, you may not be able to select the higher-end settings. Be aware that higher graphic settings will drain battery life faster and all display settings require a game restart to take effect.
+These settings help you manage their visual in-game experience. Depending on your device’s specifications, you may not be able to select the higher-end settings.Be aware that higher graphic settings will drain battery life faster and all display settings require a game restart to take effect.
 
 * **Graphic**: This setting enables you to manage the overall detail level of the game graphics.
 * **Resolution**: This setting enables you to manage the overall sharpness of game graphics. Display resolution is the visual ability to display a set number of pixels on the screen. The more pixels that a resolution has, the clearer and sharper the image will be.
