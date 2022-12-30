@@ -1,13 +1,21 @@
 # Filters
 
 ## Player name
-This is where you can limit the search results based on the player's full name or part thereof. In some cases, a player item does not show the full name of the player. In this field, you can search using any of the player’s names even though it’s not written on the player item. This field has a limit of 25 characters.
+This is where you can limit the search results based on the player's full name or part thereof. In some cases, a player item does not show the full name of the player. In this field, you can search using any of the player’s names even though it’s not written on the player item. 
+
+```{note}
+This player-name field has a limit of 25 characters.
+```
 
 ## Overall rating
-This is where you can limit the search results based on the player item's overall rating. An input in any of the fields provided must be any whole number from 40 to 150.
+This is where you can limit the search results based on the player item's overall rating. 
 
 * **Max field** - If you input a value in this field; your search results will include all player items with an overall rating below or equal to your input value. If no value is inserted in the field, the default is 150.
 * **Min field**- If you input a value in this field; your search results will include all player items with an overall rating above or equal to your input value. If no value is inserted in the field, the default is 40.
+
+```{note}
+An input in any of the fields provided must be any whole number from 40 to 150.
+```
 
 ## Team
 

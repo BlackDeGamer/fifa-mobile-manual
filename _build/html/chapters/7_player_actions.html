@@ -1,0 +1,867 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>7. Basic player actions &#8212; FIFA Mobile Manual</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="8. Markdown Files" href="../markdown.html" />
+    <link rel="prev" title="6. Filters" href="6_game_filters.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">FIFA Mobile Manual</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to the FIFA Mobile manual
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="1_expected_conduct.html">
+   1. Conduct
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2_installation.html">
+   2. Installation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="3_account_creation.html">
+   3. Account creation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="4_your_profile.html">
+   4. Account-profile
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="5_account_settings.html">
+   5. Settings
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="6_game_filters.html">
+   6. Filters
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   7. Basic player actions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../markdown.html">
+   8. Welcome message
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../notebooks.html">
+   9. Content with notebooks
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../markdown-notebooks.html">
+   10. Notebooks with MyST Markdown
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../mymarkdownfile.html">
+   11. Here’s my sample title
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fchapters/7_player_actions.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/chapters/7_player_actions.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#player-and-ball-direction">
+   7.1. Player and ball direction
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sprint">
+   7.2. Sprint
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#kickball">
+   7.3. Kickball
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#dropball">
+   7.4. Dropball
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#gk-rush">
+   7.5. GK Rush
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#throw-in">
+   7.6. Throw-in
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#pass">
+   7.7. Pass
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#shoot">
+   7.8. Shoot
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#skill-move">
+   7.9. Skill move
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#clear">
+   7.10. Clear
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#corner-kick">
+   7.11. Corner kick
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#freekick">
+   7.12. Freekick
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#penalty">
+   7.13. Penalty
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#switch-player">
+   7.14. Switch player
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tackle">
+   7.15. Tackle
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#press-mark">
+   7.16. Press mark
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#contain">
+   7.17. Contain
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#second-defender">
+   7.18. Second defender
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#substitution">
+   7.19. Substitution
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Basic player actions</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#player-and-ball-direction">
+   7.1. Player and ball direction
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sprint">
+   7.2. Sprint
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#kickball">
+   7.3. Kickball
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#dropball">
+   7.4. Dropball
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#gk-rush">
+   7.5. GK Rush
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#throw-in">
+   7.6. Throw-in
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#pass">
+   7.7. Pass
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#shoot">
+   7.8. Shoot
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#skill-move">
+   7.9. Skill move
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#clear">
+   7.10. Clear
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#corner-kick">
+   7.11. Corner kick
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#freekick">
+   7.12. Freekick
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#penalty">
+   7.13. Penalty
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#switch-player">
+   7.14. Switch player
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tackle">
+   7.15. Tackle
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#press-mark">
+   7.16. Press mark
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#contain">
+   7.17. Contain
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#second-defender">
+   7.18. Second defender
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#substitution">
+   7.19. Substitution
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="basic-player-actions">
+<h1><span class="section-number">7. </span>Basic player actions<a class="headerlink" href="#basic-player-actions" title="Permalink to this headline">#</a></h1>
+<section id="player-and-ball-direction">
+<h2><span class="section-number">7.1. </span>Player and ball direction<a class="headerlink" href="#player-and-ball-direction" title="Permalink to this headline">#</a></h2>
+<p><strong>Virtual stick</strong> - Hold and move the virtual stick in a direction you want to pass/shoot or your player to move .</p>
+<p>You can also use the virtual stick in combination with the buttons to perform advanced skill moves (not covered in this document) and to direct passes, shots, and clearances.</p>
+<p><strong>Trigger run</strong> (available if ‘advanced passing’ is enabled in the settings) - Press and swipe upwards on the “through” button.</p>
+</section>
+<section id="sprint">
+<h2><span class="section-number">7.2. </span>Sprint<a class="headerlink" href="#sprint" title="Permalink to this headline">#</a></h2>
+<p>Make your player sprint</p>
+<p><strong>With buttons</strong>:</p>
+<ul class="simple">
+<li><p>Press and hold the ‘sprint &amp; skill’ button</p></li>
+</ul>
+</section>
+<section id="kickball">
+<h2><span class="section-number">7.3. </span>Kickball<a class="headerlink" href="#kickball" title="Permalink to this headline">#</a></h2>
+<p>Make your goalkeeper kick the ball.</p>
+<p><strong>With buttons</strong>:</p>
+<ul class="simple">
+<li><p>Tap the ‘kickball’ button (you can also put more power behind your kick: press on the ‘kickball’ button and release when the power gauge is up to your liking.)</p></li>
+</ul>
+<p><strong>Without buttons</strong>:</p>
+<ul class="simple">
+<li><p>Tap on the space/player you want the goalkeeper to send the ball to (the CPU will determine whether to send it as a kickball or throw-ball). You can also swipe.</p></li>
+</ul>
+</section>
+<section id="dropball">
+<h2><span class="section-number">7.4. </span>Dropball<a class="headerlink" href="#dropball" title="Permalink to this headline">#</a></h2>
+<p>Make your goalkeeper drop the ball.</p>
+<p><strong>With buttons</strong>:</p>
+<ul class="simple">
+<li><p>Tap the ‘drop ball’ button.</p></li>
+</ul>
+</section>
+<section id="gk-rush">
+<h2><span class="section-number">7.5. </span>GK Rush<a class="headerlink" href="#gk-rush" title="Permalink to this headline">#</a></h2>
+<p>Make your goalkeeper to rush out of his goal-posts and pressure/tackle the opponent.</p>
+<p><strong>With buttons</strong>:</p>
+<ul class="simple">
+<li><p>Press ‘2nd def’ button and swipe downward.</p></li>
+</ul>
+<p><strong>With buttons</strong>:</p>
+<ul class="simple">
+<li><p>Tap on your goalkeeper (You can tap the goalkeeper again to toggle this behavior off)</p></li>
+</ul>
+</section>
+<section id="throw-in">
+<h2><span class="section-number">7.6. </span>Throw-in<a class="headerlink" href="#throw-in" title="Permalink to this headline">#</a></h2>
+<p>Make your goalkeeper throw the ball</p>
+<p><strong>With buttons</strong>: –</p>
+<ul class="simple">
+<li><p>Tap the ‘throw’ button (you can also put more power behind your keeper’s throw: press on the ‘throw’ button and release when the power gauge is up to your liking).</p></li>
+</ul>
+<p><strong>Without buttons</strong>: Make your goalkeeper kick the ball –</p>
+<ul class="simple">
+<li><p>Tap on the space or player you want the goalkeeper to send the ball to (the CPU will determine whether to send it as a kickball or throw-ball).</p></li>
+</ul>
+</section>
+<section id="pass">
+<h2><span class="section-number">7.7. </span>Pass<a class="headerlink" href="#pass" title="Permalink to this headline">#</a></h2>
+<p>Make your player pass the ball.</p>
+<p><strong>With buttons</strong>:</p>
+<ul class="simple">
+<li><p><strong>Ground pass</strong> – tap on the ‘pass’ button (you can also roughly determine how far your player’s ground pass should travel).</p>
+<ul>
+<li><p><strong>Quick tap</strong> - Passes to the closest player that you’re aiming to.</p></li>
+<li><p><strong>Hold</strong> - Passes to a player in the furthest position. If an opponent’s player gets in the way of the pass while holding, then it skips the midfielder and goes to the attacker.</p></li>
+<li><p><strong>Max hold</strong> - The longer you hold the button down, the further the pass will travel and the corresponding teammate will be selected as the receiver.</p></li>
+</ul>
+</li>
+<li><p><strong>Dinked ground pass</strong>(available if ‘advanced passing’ is enabled in the settings) - Double tap the ‘pass’ button.</p></li>
+<li><p><strong>Driven ground pass</strong> (available if ‘advanced passing’ is enabled in the settings) - Press the ‘pass’ button and swipe to the right.</p></li>
+<li><p><strong>Dinked through pass</strong> (available if ‘advanced passing’ is enabled in the settings) - Double tap the ‘through’ button.</p></li>
+<li><p><strong>Driven lob pass</strong> (available if ‘advanced passing’ is enabled in the settings) - Press the ‘pass’ button and swipe to the left.</p></li>
+<li><p><strong>Pass and go</strong> (available if ‘advanced passing’ is enabled in the settings) - Press the ‘pass’ button and swipe downwards.</p></li>
+<li><p><strong>Lob pass</strong> – press and swipe upwards on the ‘pass’ button. The longer you hold the button down the further the pass will travel and the teammate that you aim at will be selected as the receiver.</p></li>
+<li><p><strong>Ground through</strong>-pass - tap on the ‘through’ button. The longer you hold the button down the further the pass will travel and corresponding teammate will be selected as the receiver.</p></li>
+<li><p><strong>Lob through-pass</strong> - press and swipe upwards on the ‘through’ button. The longer you hold the button down the further the pass will travel and corresponding teammate will be selected as the receiver.</p></li>
+<li><p><strong>Ground cross</strong> – press and swipe to the left on the ‘pass’ button.</p></li>
+<li><p><strong>Low cross</strong> - press and swipe to the right on the ‘pass’ button.</p></li>
+</ul>
+<p><strong>Without buttons</strong></p>
+<ul class="simple">
+<li><p><strong>Pass to a player</strong> - Tap on or behind the player you want the ball passed to. The AI will determine the kind of pass to make to deliver the ball there.</p></li>
+<li><p><strong>Pass to a space</strong> - Tap on the space in front of a player where you want the ball passed to. The AI will determine the kind of pass to make to deliver the ball there.</p></li>
+<li></li>
+</ul>
+<p>In the settings(<span style="color:red">add a reference</span>), you can choose between controlling the elevation of your gesture passes or letting the AI decide it.</p>
+<p>With <strong>“Tap/double-tap gesture passes”</strong> toggled on - a single tap will trigger passes on the ground, such as Ground Pass or Through Pass, or even Low Crosses. A Double Tap will trigger only lobbed Passes, such as Lob Passes, Lofted Through Passes and regular Crosses.</p>
+<p>With <strong>“Tap/double-tap gesture passes”</strong> toggled off - the AI will decide the most suitable pass type and elevation for you.</p>
+</section>
+<section id="shoot">
+<h2><span class="section-number">7.8. </span>Shoot<a class="headerlink" href="#shoot" title="Permalink to this headline">#</a></h2>
+<p>Make your player perform a shooting action.</p>
+<p><strong>With buttons</strong> (the ‘shoot’ button shows when your controlled player is in the opponent’s half)</p>
+<ul class="simple">
+<li><p><strong>Shot or Volley or Header</strong> – tap the ‘shoot’ button (you can also put more power behind your player’s shot: press on the ‘shoot’ button and release when the shooting-power gage is up to your liking. The more the power, the higher the shot elevation)</p></li>
+<li><p><strong>Finesse shot</strong> – press the ‘shoot’ button and swipe downward</p></li>
+<li><p><strong>Fake shot</strong> – press the ‘shoot’ button and swipe to the left</p></li>
+<li><p><strong>Chip shot</strong> - press the ‘shoot’ button and swipe upward</p></li>
+</ul>
+<p><strong>Without buttons</strong></p>
+<ul class="simple">
+<li><p>Shot or Volley or Header – swipe towards your target area (you can also put more power behind your player’s shot by adjusting the speed of your swipe-action: The quicker the swipe, the more the power, the higher the shot elevation)</p></li>
+<li><p>Finesse shot – swipe in an arc-shape towards the goal post.The amount of curl does not change depending on your gesture. Your player will always apply the maximum spin possible, based on his curve attribute.</p></li>
+<li><p>Chip shot – tap on the goal posts</p></li>
+</ul>
+</section>
+<section id="skill-move">
+<h2><span class="section-number">7.9. </span>Skill move<a class="headerlink" href="#skill-move" title="Permalink to this headline">#</a></h2>
+<p>Make your player perform a skill move.</p>
+<p><strong>With buttons</strong>:</p>
+<ul class="simple">
+<li><p>Assigned skill move – tap the ‘sprint &amp; skill’ button</p></li>
+<li><p>Team skill move – press and swipe up/right/left/down (where options are available) on the ‘sprint &amp; skill’ button</p></li>
+</ul>
+</section>
+<section id="clear">
+<h2><span class="section-number">7.10. </span>Clear<a class="headerlink" href="#clear" title="Permalink to this headline">#</a></h2>
+<p>Make your player cleaar the ball.</p>
+<p><strong>With buttons</strong> (the ‘clear’ button is available when your team is off possession and your controlled player is in your team’s half):</p>
+<ul class="simple">
+<li><p>tap on the ‘Clear’ button</p></li>
+</ul>
+<p><strong>Without button</strong>:</p>
+<ul class="simple">
+<li><p>swipe away from the area you want to clear the ball from</p></li>
+</ul>
+</section>
+<section id="corner-kick">
+<h2><span class="section-number">7.11. </span>Corner kick<a class="headerlink" href="#corner-kick" title="Permalink to this headline">#</a></h2>
+<p>Make your player make a cross when taking a the cornerkick.</p>
+<p><strong>Without buttons</strong>:</p>
+<ul class="simple">
+<li><p>Tap on space or one of your players or</p></li>
+<li><p>Swipe towards the goal (the speed of the swipe determines the height of the shot; the shape of the swipe determines the spin on the ball)</p></li>
+</ul>
+</section>
+<section id="freekick">
+<h2><span class="section-number">7.12. </span>Freekick<a class="headerlink" href="#freekick" title="Permalink to this headline">#</a></h2>
+<p>When taking a freekick, the following options are available:</p>
+<p><strong>Without buttons</strong>:</p>
+<ul class="simple">
+<li><p>Tap on space or one of your players or</p></li>
+<li><p>Swipe towards the goal (the speed of the swipe determines the height of the shot; the shape of the swipe determines the spin on the ball)</p></li>
+</ul>
+<p>When defending, the following options are available:</p>
+<p><strong>With buttons</strong>:</p>
+<ul class="simple">
+<li><p><strong>Wall creep</strong> - tap on the ‘wall creep’ button</p></li>
+<li><p><strong>Wall jump</strong> - tap on the ‘jump’ button</p></li>
+<li><p><strong>Wall rush</strong>- tap on the ‘wall rush’ button</p></li>
+</ul>
+</section>
+<section id="penalty">
+<h2><span class="section-number">7.13. </span>Penalty<a class="headerlink" href="#penalty" title="Permalink to this headline">#</a></h2>
+<p>Make your player take a shot when taking a penalty.</p>
+<p><strong>Without buttons</strong>:</p>
+<ul class="simple">
+<li><p>Tap on the space between the goalposts or</p></li>
+<li><p>Swipe towards any place between the goalposts (the speed of the swipe determines the speed of the shot; the shape of the swipe determines the spin on the ball).</p></li>
+</ul>
+<p>Make your goalkeeper attempt to save a penalty.</p>
+<p><strong>Without buttons</strong>:</p>
+<ul class="simple">
+<li><p>Tap on the space between the goalposts where you want your goalkeeper to dive to, or</p></li>
+<li><p>Swipe towards the direction you want your goalkeeper to dive to.</p></li>
+</ul>
+</section>
+<section id="switch-player">
+<h2><span class="section-number">7.14. </span>Switch player<a class="headerlink" href="#switch-player" title="Permalink to this headline">#</a></h2>
+<p>The following options are available when your team is off possession.</p>
+<p><strong>Manual switch</strong></p>
+<ul class="simple">
+<li><p><strong>With buttons</strong> - Tap on the ‘Switch’ button to change to another player to control(the AI decides which player)</p></li>
+<li><p><strong>Without buttons</strong> - Tap another player you want to control (you decide which player)</p></li>
+</ul>
+<p><strong>Auto switch</strong></p>
+<p>Auto switch is possible if ‘player auto switch’ is enabled in the settings(<span style="color:red">add a reference</span>). Auto Switching always tries to select the best suited player for the current situation based on who is most likely able to take the ball. Even with Auto Switching enabled, you can still manually switch with buttons or tapping.</p>
+<ul class="simple">
+<li><p><strong>Player auto switch mode on</strong> - the game automatically switches players during the game in all situations</p></li>
+<li><p><strong>Player auto switch mode off</strong> - the game automatically switches players during lofted passes, crosses and loose balls.</p></li>
+</ul>
+</section>
+<section id="tackle">
+<h2><span class="section-number">7.15. </span>Tackle<a class="headerlink" href="#tackle" title="Permalink to this headline">#</a></h2>
+<p>The following options are available when your team is off possession.</p>
+<p><strong>With buttons</strong>:</p>
+<ul class="simple">
+<li><p>Standing tackle – tap the ‘Sprint &amp; tackle’ button</p></li>
+<li><p>Sliding tackle – tap the ‘Slide’ button</p></li>
+</ul>
+<p><strong>Without buttons</strong></p>
+<ul class="simple">
+<li><p>Press mark – tap on the player you want your player to press mark</p></li>
+<li><p>Sliding tackle – swipe in the direction you want your player to slide towards</p></li>
+</ul>
+</section>
+<section id="press-mark">
+<h2><span class="section-number">7.16. </span>Press mark<a class="headerlink" href="#press-mark" title="Permalink to this headline">#</a></h2>
+<p>The following options are available when your team is off possession.</p>
+<p><strong>With buttons</strong>– Hold ‘sprint &amp; tackle’ button (when close to an opposing player and pointing the joystick in their direction)</p>
+<p><strong>Without buttons</strong>- Tap the opponent</p>
+</section>
+<section id="contain">
+<h2><span class="section-number">7.17. </span>Contain<a class="headerlink" href="#contain" title="Permalink to this headline">#</a></h2>
+<p>The following option is available when your team is off possession.</p>
+<p><strong>With virtual stick</strong> - follow the opponent using the virtual stick.Your player will automatically sprint, if necessary, to stay with the opponent and you are not required to hold the Sprint button.</p>
+</section>
+<section id="second-defender">
+<h2><span class="section-number">7.18. </span>Second defender<a class="headerlink" href="#second-defender" title="Permalink to this headline">#</a></h2>
+<p>Make a second player come help your controlled player to close down an opponent. The option is available when your team is off possession.</p>
+<p><strong>With buttons</strong> :</p>
+<ul class="simple">
+<li><p>Press the ‘2ND Def’ button</p></li>
+</ul>
+<p><strong>Without buttons</strong>:</p>
+<ul class="simple">
+<li><p>double tab anywhere on the field (You can double tap again in order to toggle this behaviour off)</p></li>
+</ul>
+</section>
+<section id="substitution">
+<h2><span class="section-number">7.19. </span>Substitution<a class="headerlink" href="#substitution" title="Permalink to this headline">#</a></h2>
+<p>This feature is only available in H2H and manager modes.The gamer can make up to 3 substitutions during a match. The gamer must set up their substitute before kick-off and can set up to 7 substitutes on their bench. Except for the goalkeeper, you can also move players around within your current formation</p>
+<p>Manual substitution
+You can make on-the-fly substitutions by pulling up the live substitution menu. The menu can be brought up at any point in a match without needing to pause the <a class="reference external" href="http://match.To">match.To</a> make the substitution, you should drag the substitute player item over the on-field player item.When a player has been substituted, they will have a substitution symbol placed next to their item. When you have finished making a substitution, then tap ‘save’ to apply them. As soon as the ball goes out of play, your substitution(s) will be made.</p>
+<p>Automatic substitution
+This option can only be set before kick-off. Under the “Substitutes” menu, you can toggle “Auto substitution”. When this option is turned on, it allows you to receive automatic substitution suggestions (based on the player’s stamina level) during your match. A timer will begin in the top right corner with the suggested sub, which can be cancelled if you do not wish to make the sub. As soon as the ball goes out of play, your substitution(s) will be made</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./chapters"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="6_game_filters.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title"><span class="section-number">6. </span>Filters</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="../markdown.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">8. </span>Markdown Files</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By BlackDeGamer<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
