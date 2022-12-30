@@ -18,6 +18,13 @@ chapters:
 - file: chapters/10_field_positions
 - file: chapters/11_field_formations
 - file: chapters/12_chemistry
+- file: chapters/13_player_item
+- file: chapters/14_player_inventory
+- file: chapters/15_player_attributes
+- file: chapters/16_player_special_traits
+- file: chapters/17_skill_moves
+- file: chapters/18_skill_boost
+- file: chapters/19_player_improvement
 - file: markdown
   title: Welcome message
 # sections:
