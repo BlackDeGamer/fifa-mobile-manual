@@ -33,7 +33,7 @@ chapters:
 - file: chapters/25_market
 - file: chapters/26_exchange
 - file: chapters/27_store
-- file: chapters/28_store
+- file: chapters/28_support
 - file: chapters/29_numbers
 - file: markdown
   title: Welcome message
