@@ -1,0 +1,564 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Friends &#8212; FIFA Mobile Manual</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">FIFA Mobile Manual</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to the FIFA Mobile manual
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="1_expected_conduct.html">
+   1. Conduct
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2_installation.html">
+   2. Installation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="3_account_creation.html">
+   3. Account creation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="4_your_profile.html">
+   4. Account-profile
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="5_account_settings.html">
+   5. Settings
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="6_game_filters.html">
+   6. Filters
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="7_player_actions.html">
+   7. Basic player actions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="8_team_tactics.html">
+   8. Team tactics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="9_game_modes.html">
+   9. Game modes
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="10_field_positions.html">
+   10. Field positions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="11_field_formations.html">
+   11. Field formations
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="12_chemistry.html">
+   12. Chemistry
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="13_player_item.html">
+   13. Player item
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="14_player_inventory.html">
+   14. Players
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="15_player_attributes.html">
+   15. Player attributes
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="16_player_special_traits.html">
+   16. Special traits
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="17_skill_moves.html">
+   17. Skill moves
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="18_skill_boost.html">
+   18. Skill boosts
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="19_player_improvement.html">
+   19. Player training, ranking and boosting
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../markdown.html">
+   20. Welcome message
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../notebooks.html">
+   21. Content with notebooks
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../markdown-notebooks.html">
+   22. Notebooks with MyST Markdown
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../mymarkdownfile.html">
+   23. Here’s my sample title
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fchapters/20_friends.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/chapters/20_friends.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sorting-friends-list">
+   Sorting friends’ list
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#friend-options">
+   Friend options
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#add-friend">
+   Add friend
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Friends</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sorting-friends-list">
+   Sorting friends’ list
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#friend-options">
+   Friend options
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#add-friend">
+   Add friend
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="friends">
+<h1>Friends<a class="headerlink" href="#friends" title="Permalink to this headline">#</a></h1>
+<p>You can add up to 32 friends or foes to your friends’ list and keep track of your wins, draws, and losses. You can see each friend’s status as Online (green), Offline (grey), or in a match (red).</p>
+<section id="sorting-friends-list">
+<h2>Sorting friends’ list<a class="headerlink" href="#sorting-friends-list" title="Permalink to this headline">#</a></h2>
+<p>There are a few ways you can sort your friends’ list:</p>
+<ul class="simple">
+<li><p><strong>Login Status</strong>: this lists your friends by beginning with those that are online and available to play, then those that are online and still in a match, and finally those that are offline.</p></li>
+<li><p><strong>Alphabetically</strong>: Using the beginning letter(s) of their usernames, this lists your friends in the order of the letters of the alphabet.</p></li>
+<li><p><strong>Overall rating(OVR)</strong>: This lists your friends by beginning with those whose active line-up has the highest overall rating and ending with those whose active line-up has the least.</p></li>
+<li><p><strong>Head-to-head ranking</strong>: This lists your friends by beginning with those with the highest number of cups and ending with those with the least number of cups.</p></li>
+<li><p><strong>VS attack ranking</strong>: This lists your friends by beginning with those with the highest number of fans and ending with those with the least number of fans.</p></li>
+<li><p><strong>Account-level</strong>: This lists your friends by beginning with those with the highest account level and ending with those with the least account level.</p></li>
+</ul>
+</section>
+<section id="friend-options">
+<h2>Friend options<a class="headerlink" href="#friend-options" title="Permalink to this headline">#</a></h2>
+<p>In the “friends” menu there’s a lot you can do, from playing with friends, inviting them to your league to looking at both your history.</p>
+<ul class="simple">
+<li><p><strong>Match</strong>: When your friend is online, this feature is enabled, and you can send them a match request. When your friend is offline, this option is disabled.When you sent a match request to a friend, they will be notified, and the request will appear in their inbox where they can choose to accept or decline your request.</p></li>
+<li><p><strong>Profile</strong>: This feature enables you to see your friend’s profile</p></li>
+<li><p><strong>History</strong>: Up to 5 previous matches, this feature enables you to see how you fared against your friend. For each type of match, the record shows the number of times you won, drew, and lost against your friend.</p></li>
+<li><p><strong>League invite</strong>: If you are in a league and you are an administrator or the league’s owner, this feature enables you to invite your friend to your league.</p></li>
+<li><p><strong>Unfriend</strong>: This feature enables you to remove the gamer from your friends’ list</p></li>
+</ul>
+</section>
+<section id="add-friend">
+<h2>Add friend<a class="headerlink" href="#add-friend" title="Permalink to this headline">#</a></h2>
+<p>To have someone on your friends’ list, one of you should send a friend request and the other should accept it. There are several ways you can send a friend request to another gamer.</p>
+<ul class="simple">
+<li><p><strong>Recommended friends</strong>:
+From the ‘friends’ menu, selecting “add friends” will take you to a list of recommended friends where you can “add friend”. The game makes these recommendations based on similarities between your account and theirs. This can include account data such as account level, account region, and active line-up’s overall rating</p></li>
+<li><p><strong>Search</strong>:
+Having selected ‘add friends’, looking at the recommended list and still preferring to search for a friend by username, then tap “search”. There you can type your preferred username and search for a friend.</p></li>
+<li><p><strong>Match history</strong>:
+From either your or anyone else’s match history, you can send a friend request to any gamer on the list.</p></li>
+<li><p><strong>Members’ list of a league</strong>:
+Within your or any league, you can send a friend request to any of the members.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Remember that you can only befriend gamers from your <a class="reference external" href="http://region.At">region.At</a> this point, you can view the profile of each gamer in the search results. If you are a league owner or a league administrator, you can even invite the gamer to your league.</p>
+</div>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./chapters"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By BlackDeGamer<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>

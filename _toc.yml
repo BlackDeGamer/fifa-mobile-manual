@@ -25,6 +25,16 @@ chapters:
 - file: chapters/17_skill_moves
 - file: chapters/18_skill_boost
 - file: chapters/19_player_improvement
+- file: chapters/20_friiends
+- file: chapters/21_live_events
+- file: chapters/22_division_rivals
+- file: chapters/23_league
+- file: chapters/24_quests
+- file: chapters/25_market
+- file: chapters/26_exchange
+- file: chapters/27_store
+- file: chapters/28_store
+- file: chapters/29_numbers
 - file: markdown
   title: Welcome message
 # sections:
