@@ -10,12 +10,13 @@ chapters:
 - file: chapters/2_installation
 - file: chapters/3_account_creation
 - file: chapters/4_your_profile
+- file: chapters/5_account_settings
 - file: markdown
   title: Welcome message
 # sections:
 - file: notebooks
-  title: notebook
+  # title: notebook
 - file: markdown-notebooks
-  title: MK_nt
+  # title: MK_nt
 - file: mymarkdownfile
-  title: Custom
+  # title: Custom
