@@ -40,14 +40,18 @@ The game requires you to input your age and a username to create your account.
 Your account's experience level is 0 when you begin a FIFA Mobile season. You can increase your account level from 0 by accumulating experience points. Completing certain matches in the game awards experience points.
 
 <center>
+
 <img src="../chapters/imgs/33-1.jpg" alt="alt text" title="image Title" width="450"/>
+
 </center>
 
 
 Some game features are locked in lower experience levels. Reaching certain account levels unlocks some of the locked game features. such as Chemistry, formations, and line-ups.For example
 
 <center>
+
 <img src="../chapters/imgs/33-2.png" alt="alt text" title="image Title" width="350"/>
+
 </center>
 
 * Reaching account level 2 will see you unlock 9 formations. Thereafter, 1 formation will be unlocked for every 2 account levels achieved until all 29 formations have been unlocked
