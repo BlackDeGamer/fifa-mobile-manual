@@ -112,6 +112,7 @@ When your opponent has or has been disconnected from the match you will see the 
            width: 100%;"
     src="../chapters/imgs/241-5.png" 
     alt="Our logo">
+
 </img>
 
 ### Other connectivity metrics and recommendations
