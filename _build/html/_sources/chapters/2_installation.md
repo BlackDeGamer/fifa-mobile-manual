@@ -74,3 +74,18 @@ VS Attack mode can be played on a mobile device fulfilling the following minimum
 * Sony Xperia: X Performance/XA/XA Ultra/XA1/XA1 Ultra/XA2/XZ/XZ Premium/XZ1/XZ2/XZ3/Z4/Z5/Z5 Premium
 
 *Supported devices are subject to change.
+
+## Connectivity environment 
+### Ping connectivity rating in head-to-head and vs-attack
+When the ping is written in green, then your connection is very good
+
+![good connection](../chapters/imgs/241-1.png)
+
+When the ping is written in yellow, then your connection is fair
+![fair connection](../chapters/imgs/241-2.png)
+
+When the ping is written in red, then your connection is very bad, and you may be disconnected from the game.
+![bad connection](../chapters/imgs/241-3.png)
+
+When your opponent has a very bad ping, this is the message you may see.
+![good connection](../chapters/imgs/241-4.jpg)
