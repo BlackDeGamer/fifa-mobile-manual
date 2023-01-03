@@ -104,11 +104,15 @@ When your opponent has a very bad ping, this is the message you may see.
 </div>
 
 When your opponent has or has been disconnected from the match you will see the “opponent disconnected” message and an exclamation mark through the signal icon.
-<center>
 
-<img src="../chapters/imgs/241-5.png" alt="alt text" title="image Title" width="880"/>
-
-</center>
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 100%;"
+    src="../chapters/imgs/241-5.png" 
+    alt="Our logo">
+</img>
 
 ### Other connectivity metrics and recommendations
 Gamers often ask how they can know whether their internet connection is "good" or "bad" for playing FIFA Mobile. The answer is not easy because the true answer depends on several factors unique to the hardware of, network architecture around, and locations of the server and the gaming device. 
