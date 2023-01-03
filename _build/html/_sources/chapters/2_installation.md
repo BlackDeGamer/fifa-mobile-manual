@@ -78,7 +78,6 @@ VS Attack mode can be played on a mobile device fulfilling the following minimum
 ## Connectivity environment 
 ### Ping connectivity rating in head-to-head and vs-attack
 When the ping is written in green, then your connection is very good
-
 ![good connection](../chapters/imgs/241-1.png)
 
 When the ping is written in yellow, then your connection is fair
@@ -89,3 +88,38 @@ When the ping is written in red, then your connection is very bad, and you may b
 
 When your opponent has a very bad ping, this is the message you may see.
 ![good connection](../chapters/imgs/241-4.jpg)
+
+When your opponent has or has been disconnected from the match you will see the “opponent disconnected” message and an exclamation mark through the signal icon.
+![good connection](../chapters/imgs/241-5.png)
+
+### Other connectivity metrics and recommendations
+Gamers often ask how they can know whether their internet connection is "good" or "bad" for playing FIFA Mobile. The answer is not easy because the true answer depends on several factors unique to the hardware of, network architecture around, and locations of the server and the gaming device. 
+
+For good user experience in all parts of the games, the recommendation is given for each of the following metrics: 
+
+* **Download speed**: 
+This is how fast information can get from the internet to your device. It is measured by how many bits of information can be delivered per second. 
+
+    Recommendation: The higher, the better. 
+
+* **Upload speed**:
+Upload speed measures how fast data can get from your device to the internet. It is measured by how many bits of information can be delivered per second. 
+
+    Recommendation: The higher, the better. 
+
+* **Latency (Ping)**: 
+Latency measures how long it takes for a signal (called a ping) to travel to an internet server and back. Because of varying traffic on the internet, this value changes over time. 
+
+    Recommendation: The closer to 0, the better. 
+
+* **Jitter** :
+This is the variance of latencies experienced over a given time. When packets arrive at rapidly alternating speeds (fast, slow, fast, slow), the gaps between them create an inconsistent flow that negatively impacts real-time services. 
+
+    Recommendation: The closer to 0, the better. 
+
+* **Data loss** :
+Files are not transferred across your network fully formed. Instead, they are broken into easy-to-send chunks called packets. If your connection is suffering high packet loss, you are likely to experience unresponsive services, frequent disconnects, and recurring errors. 
+
+    Recommendation: The closer to 0, the better. 
+
+There are applications on the internet that you can download/use to test your connection, see the above metrics, and make your assessment about how ‘good’ your connection is. EA-Help recommends [Speedtest app](https://beta.speedtest.net/apps/mobile). 

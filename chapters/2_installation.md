@@ -100,26 +100,26 @@ For good user experience in all parts of the games, the recommendation is given 
 * **Download speed**: 
 This is how fast information can get from the internet to your device. It is measured by how many bits of information can be delivered per second. 
 
-    Recommendation: The higher, the better. 
+    **Recommendation**: The higher, the better. 
 
 * **Upload speed**:
 Upload speed measures how fast data can get from your device to the internet. It is measured by how many bits of information can be delivered per second. 
 
-    Recommendation: The higher, the better. 
+    **Recommendation**: The higher, the better. 
 
 * **Latency (Ping)**: 
 Latency measures how long it takes for a signal (called a ping) to travel to an internet server and back. Because of varying traffic on the internet, this value changes over time. 
 
-    Recommendation: The closer to 0, the better. 
+    **Recommendation**: The closer to 0, the better. 
 
 * **Jitter** :
 This is the variance of latencies experienced over a given time. When packets arrive at rapidly alternating speeds (fast, slow, fast, slow), the gaps between them create an inconsistent flow that negatively impacts real-time services. 
 
-    Recommendation: The closer to 0, the better. 
+    **Recommendation**: The closer to 0, the better. 
 
 * **Data loss** :
 Files are not transferred across your network fully formed. Instead, they are broken into easy-to-send chunks called packets. If your connection is suffering high packet loss, you are likely to experience unresponsive services, frequent disconnects, and recurring errors. 
 
-    Recommendation: The closer to 0, the better. 
+    **Recommendation**: The closer to 0, the better. 
 
 There are applications on the internet that you can download/use to test your connection, see the above metrics, and make your assessment about how ‘good’ your connection is. EA-Help recommends [Speedtest app](https://beta.speedtest.net/apps/mobile). 
