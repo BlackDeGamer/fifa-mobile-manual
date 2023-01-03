@@ -79,12 +79,16 @@ VS Attack mode can be played on a mobile device fulfilling the following minimum
 ### Ping connectivity rating in head-to-head and vs-attack
 When the ping is written in green, then your connection is very good
 <center>
+
 <img src="../chapters/imgs/241-1.png" alt="alt text" title="image Title" width="880"/>
+
 </center>
 
 When the ping is written in yellow, then your connection is fair
 <center>
+
 <img src="../chapters/imgs/241-2.png" alt="alt text" title="image Title" width="880"/>
+
 </center>
 
 When the ping is written in red, then your connection is very bad, and you may be disconnected from the game.
