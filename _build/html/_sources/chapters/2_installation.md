@@ -106,6 +106,7 @@ When your opponent has a very bad ping, this is the message you may see.
 When your opponent has or has been disconnected from the match you will see the “opponent disconnected” message and an exclamation mark through the signal icon.
 
 <img 
+
     style="display: block; 
            margin-left: auto;
            margin-right: auto;

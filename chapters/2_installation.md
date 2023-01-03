@@ -97,7 +97,7 @@ When the ping is written in red, then your connection is very bad, and you may b
 </center>
 
 When your opponent has a very bad ping, this is the message you may see.
-<div style="text-align: center;">
+<div style="text-align: center; ">
 
 <img src="../chapters/imgs/241-4.jpg" alt="alt text" title="image Title" width="880"/>
 
@@ -105,16 +105,13 @@ When your opponent has a very bad ping, this is the message you may see.
 
 When your opponent has or has been disconnected from the match you will see the “opponent disconnected” message and an exclamation mark through the signal icon.
 
-<img 
+<div style="text-align: center; width: 100%">
 
-    style="display: block; 
-           margin-left: auto;
-           margin-right: auto;
-           width: 100%;"
-    src="../chapters/imgs/241-5.png" 
-    alt="Our logo">
+![dta](../chapters/imgs/241-5.png)
 
-</img>
+</div>
+
+
 
 ### Other connectivity metrics and recommendations
 Gamers often ask how they can know whether their internet connection is "good" or "bad" for playing FIFA Mobile. The answer is not easy because the true answer depends on several factors unique to the hardware of, network architecture around, and locations of the server and the gaming device. 
