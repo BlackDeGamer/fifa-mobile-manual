@@ -97,13 +97,17 @@ When the ping is written in red, then your connection is very bad, and you may b
 </center>
 
 When your opponent has a very bad ping, this is the message you may see.
-<center>
+<div style="text-align: center;">
+
 <img src="../chapters/imgs/241-4.jpg" alt="alt text" title="image Title" width="880"/>
-</center>
+
+</div>
 
 When your opponent has or has been disconnected from the match you will see the “opponent disconnected” message and an exclamation mark through the signal icon.
 <center>
+
 <img src="../chapters/imgs/241-5.png" alt="alt text" title="image Title" width="880"/>
+
 </center>
 
 ### Other connectivity metrics and recommendations
